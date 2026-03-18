@@ -713,7 +713,7 @@ elif page == "finances":
 # 9.  CRÉANCES (GENS QUI ME DOIVENT DE L'ARGENT)
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "creances":
-    st.markdown('<p class="main-title">🤝 Créances — Personnes qui me doivent de l'argent</p>', unsafe_allow_html=True)
+    st.markdown("<p class='main-title'>🤝 Créances — Personnes qui me doivent de l'argent</p>", unsafe_allow_html=True)
     data = st.session_state.data
 
     tab1, tab2 = st.tabs(["➕ Ajouter une créance", "📋 Liste"])
